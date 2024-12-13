@@ -15,3 +15,4 @@
 console.log(typeof "anish");
 console.log(typeof null);
 console.log(typeof undefined);
+
