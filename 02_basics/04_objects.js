@@ -47,15 +47,28 @@ tinderUser.name = "Sammy"
 tinderUser.isLoggedIn = false
 
 // console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+// // console.log(Object.values(tinderUser));
+//  console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggeIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggeIn'))
 
-for(let key in tinderUser){
-    console.log(`${key},${tinderUser[key]}`);
+// for(let key in tinderUser){
+//     console.log(`${key},${tinderUser[key]}`);
     
-} // loops in objects
+// } // loops in objects
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor: "hitesh"
+}
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
+
+//De-Structure
+
 
 
 
