@@ -32,6 +32,8 @@ JsUser.greeting = function(){
     console.log("Helllo JS USER");
     
 }
+console.log(JsUser);
+
 // console.log(JsUser.greeting);
 // console.log(JsUser.greeting());
 
