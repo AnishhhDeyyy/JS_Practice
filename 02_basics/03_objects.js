@@ -23,17 +23,15 @@ console.log(JsUser.lastLoginDays.at(1));
 // console.log(JsUser["fullname"]);
 // console.log(typeof JsUser["mysym"]);
 
-JsUser.email = "anshhhh@gmail.com"
-//Object.freeze(JsUser) // after that we cant change jsuser value
-JsUser.email = "Ms@gmail.com"
-console.log(JsUser);
+// JsUser.email = "anshhhh@gmail.com"
+// //Object.freeze(JsUser) // after that we cant change jsuser value
+// JsUser.email = "Ms@gmail.com"
+// console.log(JsUser);
 
 JsUser.greeting = function(){
     console.log("Helllo JS USER");
     
 }
-console.log(JsUser);
-
 // console.log(JsUser.greeting);
 // console.log(JsUser.greeting());
 
@@ -42,8 +40,11 @@ JsUser.greetingtwo = function(){
     
 }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingtwo());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingtwo());
+
+console.log(JsUser);
+
 
 
 
