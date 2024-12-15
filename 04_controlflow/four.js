@@ -32,3 +32,24 @@ function printme(val){
 
 const helloone = [1,2,3,4,5]
 helloone.forEach(printme)
+
+const hellskitchen = [
+    {
+        languageName: "JAVASCRIPT",
+        languagaeextension: ".JS"
+    },
+    {
+        languageName: "PYTHON",
+        languagaeextension:".PY"
+    },
+    {
+        languageName:"JAVA",
+        languagaeextension:".JAVA"
+    }
+]
+
+hellskitchen.forEach((obj)=>{
+    console.log(obj.languageName);
+    console.log(obj.languagaeextension);
+    
+})
