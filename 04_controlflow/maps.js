@@ -3,7 +3,7 @@ map.set('IN',"INDIA")
 map.set('USA',"UNITED STATES OF AMERICA")
 map.set('UK',"UNITED KINGDOM")
 
-// console.log(map);  /// for unique values
+console.log(map);  /// for unique values
 
 for(const [key,value] of map){
     console.log(key,'=>',value);
