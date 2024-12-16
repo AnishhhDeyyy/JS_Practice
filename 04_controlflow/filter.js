@@ -36,7 +36,6 @@ const books = [
     }
   })
 
-  cons
   
 
 
