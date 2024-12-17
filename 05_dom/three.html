@@ -9,18 +9,29 @@
     
 </body>
 <script>
-    const div = document.createElement('div')
-    console.log(div)
-    div.className = "main"
-    // div.id = "myId"
-    div.id = Math.round(Math.random()*10+1)
-    div.setAttribute("title","generated title")
-    div.style.backgroundColor = "green"
-    div.style.padding = "12px"
-    const addText = document.createTextNode("CoderXXAnish")
-    div.appendChild(addText)
-    // this are for creating element and you can see there is nothing in browser
-    // for that we have to use
-    document.body.appendChild(div)
+    // const div = document.createElement('div')
+    // console.log(div)
+    // div.className = "main"
+    // // div.id = "myId"
+    // div.id = Math.round(Math.random()*10+1)
+    // div.setAttribute("title","generated title")
+    // div.style.backgroundColor = "green"
+    // div.style.padding = "12px"
+    // const addText = document.createTextNode("CoderXXAnish")
+    // div.appendChild(addText)
+    // // this are for creating element and you can see there is nothing in browser
+    // // for that we have to use
+    // document.body.appendChild(div)
+
+    const h1 = document.createElement('h1')
+    console.log(h1)
+    h1.setAttribute("title","generated title")
+    h1.style.backgroundColor = 'yellow'
+    h1.style.padding = "10px"
+    const addText = document.createTextNode("Hello This is Anish")
+    h1.appendChild(addText)
+    document.body.appendChild(h1)
+
+
 </script>
 </html>
