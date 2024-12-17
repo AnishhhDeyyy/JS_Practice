@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM| Hello</title>
+</head>
+<body style="background-color: black;">
+    <div class="parent">
+        <!--This is comment-->
+        <div class="day", style="color: white">Monday</div>
+        <div class="day", style="color: white">Tuesday</div>
+        <div class="day", style="color: white">Wednesday</div>
+        <div class="day", style="color: white">Thursday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent)
+    // console.log(parent.children)
+    // console.log(parent.children[1].innerHTML)
+    // for (let i = 0; i < parent.children.length; i++) {
+    //     console.log(parent.children[i].innerHTML)
+        
+    // }
+    parent.children[1].style.color = 'red'
+
+     console.log(parent.firstElementChild) //geeting first child element
+     console.log(parent.lastElementChild)  // geeting last child element
+   
+     const dayOne = document.querySelector('.day') 
+     console.log(dayOne)
+
+     // from children to parent 
+     console.log(dayOne.parentElement)
+     console.log(dayOne.nextElementSibling)
+
+     console.log(parent.childNodes) // it basically in tree format, browser create complex tree structure and a linebreak will also be a text nodes
+    
+
+</script>
+
+</html>
