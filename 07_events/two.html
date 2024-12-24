@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsyncJs</title>
+    <h1>Chai aur Code</h1>
+    <button id="stop">Stop</button>
+    <p></p>
+</head>
+<body>
+    
+</body>
+<script>
+    // const sayAnish = function(){
+    //     console.log("THis is Anish")
+    // }
+    const textChange = function(){
+    document.querySelector('h1').innerHTML = "Best Js Seris"
+    }
+    document.querySelector('#stop').addEventListener('click',function(){
+           clearTimeout(ChnageME)
+           console.log('Yeah Stopped')
+    })
+    const ChnageME = setTimeout(textChange,2000)
+</script>
+</html>

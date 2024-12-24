@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsyncJs</title>
+    <h1>Chai aur JS</h1>
+    <button id="stop">Stop</button>
+    <button id="start">Start</button>
+    <p></p>
+</head>
+<body>
+    
+</body>
+<script>
+    const start = document.querySelector('#start')
+    let l = 0;
+    start.addEventListener('click',function(e){
+         let t = setInterval(function(){
+        console.log("Anish",Date.now());
+    },1000)
+    l = t;
+    })
+    const stop = document.querySelector('#stop')
+    stop.addEventListener('click',function(e){
+        clearInterval(l)
+    })
+    
+    
+</script>
+</html>
